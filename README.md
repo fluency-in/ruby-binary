@@ -1,4 +1,4 @@
-# Binary
+# Ruby: Binary
 
 Write a program that will convert a binary number, represented as a string (e.g. '101010'), to its decimal equivalent using first principles
 
@@ -28,6 +28,20 @@ Binary is similar, but uses powers of 2 rather than powers of 10.
 
 So: `101 => 1*2^2 + 0*2^1 + 1*2^0 => 1*4 + 0*2 + 1*1 => 4 + 1 => 5 base 10`.
 
+The tests use the Minitest testing framework. To install it run the command:
+
+    gem install minitest
+
+Run the tests with the `ruby` command:
+
+    ruby binary_test.rb
+
+## Resources
+
+If you have never used Minitest, check out [Intro to TDD][tdd] tutorial from Jumpstart Lab.
+
+[tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
+
 ## Source
 
 All of Computer Science [http://www.wolframalpha.com/input/?i=binary&a=*C.binary-_*MathWorld-](http://www.wolframalpha.com/input/?i=binary&a=*C.binary-_*MathWorld-)
@@ -36,3 +50,6 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
+
+
+
